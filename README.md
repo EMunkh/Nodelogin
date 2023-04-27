@@ -29,6 +29,11 @@ $ npm i dotenv
 $ npm i typescript
 $ npm i -g ts-node 
 ```
+# express
+```express
+$ npm i express
+$ npm i express-session
+```
 # run server
 ```javascript
 $ npm start
