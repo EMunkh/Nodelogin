@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login & Registration</title>
+  <!---Custom CSS File--->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <input type="checkbox" id="check">
+    <div class="login form">
+      <header>Login</header>
+      <form action="/auth1" method="post">
+        <label for="username">
+          <!-- font awesome icon -->
+          <i class="fas fa-user"></i>
+        </label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          id="username"
+          required
+        />
+        <label for="password">
+          <i class="fas fa-lock"></i>
+        </label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          id="password"
+          required
+        />
+        <input type="submit" value="Login" />
+      </form>
+      <div class="signup">
+        <span class="signup">Don't have an account?
+         <label for="check">Signup</label>
+        </span>
+      </div>
+    </div>
+    <div class="registration form">
+      <header>Signup</header>
+      <form action="/auth2" method="post">
+        <label for="username">
+          <!-- font awesome icon -->
+          <i class="fas fa-user"></i>
+        </label>
+        <input
+          type="text"
+          name="username"
+          placeholder="Username"
+          id="username"
+          required
+        />
+        <label for="password">
+          <i class="fas fa-lock"></i>
+        </label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          id="password"
+          required
+        />
+        <label for="email">
+          <i class="fas fa-lock"></i>
+        </label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          id="email"
+          required
+        />
+        <input type="submit" value="Signup" />
+      </form>
+      <div class="signup">
+        <span class="signup">Already have an account?
+         <label for="check">Login</label>
+        </span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
