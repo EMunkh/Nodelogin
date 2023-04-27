@@ -1,13 +1,13 @@
  # create database
-CREATE DATABASE `nodelogin`;
+*CREATE DATABASE `nodelogin`;
 
 # create table
 
-CREATE TABLE accounts ( id SERIAL UNIQUE, 
-username varchar(50) NOT NULL, 
-password varchar(255) NOT NULL, 
-email varchar(100) NOT NULL, 
-PRIMARY KEY (id) )
+*CREATE TABLE accounts ( id SERIAL UNIQUE, 
+*username varchar(50) NOT NULL, 
+*password varchar(255) NOT NULL, 
+*email varchar(100) NOT NULL, 
+*PRIMARY KEY (id) )
 # insert user
 
 INSERT INTO accounts (id, username, password, email) VALUES (1, 'test', 'test', 'test@test.com');
